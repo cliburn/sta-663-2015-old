@@ -1,9 +1,9 @@
-Course organization
+STA 633: Statistical Computing and Computation
 ===========================
 
 ### Pretest
 
-Try to answer the [pretest](pretest.html) - if you are not familiar with at least 50-75% of the material, you may not be ready for this classs.
+Try the [pretest](pretest.html) - if you are not familiar with at least 50-75% of the material, you may not be ready for this classs.
 
 ### Overview
 
@@ -23,7 +23,7 @@ In today's context, statisticians will be doing all three stages in front of a c
 
 To deal with the massive data sets that you will enocounter in your career, the course will emphasize reproducible analysis, code optimization, high-perforamnce computing and cloud computing. Examples will be drawn from the core topics in computational statistics of optimization (e.g. smoothing, interpolation, maximum lkelihood, constrained and unconstrained methods) and simulation (e.g. jackknife, bootstrap, permutation, Monte Carlo integrals, MCMC).
 
-At the end of the course, these are the practical skills every student should learn:
+At the end of the course, these are the practical skills (Units 1-6) every student should learn:
 
 1. How to set up a reproducible analysis pipeline using bash, git, make and LaTeX
 2. How to clean, manage and manipulate huge data sets using text processing, relational databases
@@ -71,12 +71,11 @@ In particular, students should be able to write readable, well-documented, effic
 **Possible Exercise**: Plot and annotate the given dataset to illustrate its key features.
 
 ### Unit 4: Efficient statistical routines (50%)
-
 * Program complexiity and Big $\mathcal{O}$ notation
 * Classic data structures (arrays, dictionaries, disjoint sets, trees, priority queues)
 * Classic algorithms (divide-and-conquer, hasing, recursion, search, sort, graph algorithms)
 * Broadcasting and vectorization in numpy and pandas
-* Functional programming (apply, map, filter, reduce, partial application)
+* Functional programming (motivation, apply, map, filter, reduce, comprehensions, recursion, partial application)
 * Representation of numbers and linear algebra
 * Decompositional approach to matrix computations (LR, QR, SVD, Cholesky)
 * Introducing BLAS and LAPACK
@@ -102,11 +101,13 @@ In particular, students should be able to write readable, well-documented, effic
 **Sample Exercise**: Use regular Python, PyMC3 and PyStan to find the posterior distribution for a two-level model.
 
 ### Unit 5: Code optimization and native code (10%)
+
 * Complexity and performance of algorithms and data structures
 * C crash course for statisticians
 * Using numexpr, numba and cython
 * Using functions from C/C++ libraries
 * Writing functions in C/C++ and wrapping for Python/R
+* Introduction to the Julai programming language
 
 **Sample Exercise**: You are given some slow code. Speed it up by using a better algoithm or data structure.
 

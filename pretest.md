@@ -3,9 +3,7 @@ Expected background and pretest
 
 ### Miscellaneous basics
 
-* LaTeX
-
-> Use LaTeX to generate the following
+* Use LaTeX to generate the following
 
 \\[
 \begin{align}
@@ -14,15 +12,13 @@ Expected background and pretest
 \end{align}
 \\]
 
-* Can use a version control system
+* Create a repository on GitHub. Add a README file to it with the text "Hello". Now clone it to your local filesystem and revise the text of READNE to "Goodbye".Commit and push your changes to GitHub.
 
-> Create a repository on GitHub. Add a README file to it with the text "Hello". Now clone it to your local filesystem and revise the text of READNE to "Goodbye".Commit and push your changes to GitHub.
-
-* Comfortable working in command line
-
-> Create a new directory, read a text file, run a script without leaving the console/terminal
+* Open a console/terminal in your OS. Create a new directory, navigate to the new directory, creata a text file using` echo` and `>`, read the text file using `cat`, and count  the number of characters in the text file with `wc` without leaving the console/terminal
 
 ### Programming basics
+
+Most of the programming will be in Python, with C towards the end of the course and occasional R and Julia excursions. You are expected to have programming experience in a high-level language commonly used for numerical computation (e.g. R, Matlab). Programming experience in Python and C is not necessary, but it is strongly recommended that you learn at least the basics of both languages from an online tutorial or introductory book before the course.
 
 **In any language**
 
