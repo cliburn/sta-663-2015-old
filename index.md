@@ -1,4 +1,4 @@
-STA 633: Statistical Computing and Computation
+STA 663: Statistical Computing and Computation
 ===========================
 
 ### Pretest
