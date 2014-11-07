@@ -3,25 +3,25 @@ STA 663: Statistical Computing and Computation
 
 ### Pretest
 
-Try the [pretest](pretest.html) - if you are not familiar with at least 50-75% of the material, you may not be ready for this classs.
+Try the [pretest](pretest.html) - if you are not familiar with at least 50-75% of the material, you may not be ready for this class.
 
 ### Overview
 
-Most of science, including statsitcs, revolves around the design of models to represent data of some sort. In statistics, these models are typically probability distributions with parameters to estimate. The typical stages of analysis goes something like this:
+Most of science, including statistics, revolves around the design of models to represent data of some sort. In statistics, these models are typically probability distributions with parameters to estimate. The typical stages of analysis goes something like this:
 
 1. Data management 
     1. Receive possibly messy and bad data
     2. Clean and filter the data 
-2. Expoloratory data analysis
+2. Exploratory data analysis
     1. Describe and visualize the data to come up with possible models
 3. Statistical inference
     1. Estimate model parameters given data (Model estimation and selection)
     2. Make predictions with model (Model prediction)
 4. Reporting
 
-In today's context, statisticians will be doing all three stages in front of a computer. We believe that modern analysiis of massive data sets is best achieved using a combination of complementatry software tools, and the course will cover what we consider to be an essential toolkit comprising `bash`, `git`, `make`, `sqlite3`, `python`, `R`, `C` and `LaTeX`. We use Python as the computational "glue" that integrates these collection of tools, and also in its capacity as an efficient high-level language for scientiific and statistical computing.
+In today's context, statisticians will be doing all three stages in front of a computer. We believe that modern analysis of massive data sets is best achieved using a combination of complementary software tools, and the course will cover what we consider to be an essential toolkit comprising `bash`, `git`, `make`, `sqlite3`, `python`, `R`, `C` and `LaTeX`. We use Python as the computational "glue" that integrates these collection of tools, and also in its capacity as an efficient high-level language for scientific and statistical computing.
 
-To deal with the massive data sets that you will enocounter in your career, the course will emphasize reproducible analysis, code optimization, high-perforamnce computing and cloud computing. Examples will be drawn from the core topics in computational statistics of optimization (e.g. smoothing, interpolation, maximum lkelihood, constrained and unconstrained methods) and simulation (e.g. jackknife, bootstrap, permutation, Monte Carlo integrals, MCMC).
+To deal with the massive data sets that you will encounter in your career, the course will emphasize reproducible analysis, code optimization, high-performance computing and cloud computing. Examples will be drawn from the core topics in computational statistics of optimization (e.g. smoothing, interpolation, maximum likelihood, constrained and unconstrained methods) and simulation (e.g. jackknife, bootstrap, permutation, Monte Carlo integrals, MCMC).
 
 At the end of the course, these are the practical skills (Units 1-6) every student should learn:
 
@@ -42,11 +42,11 @@ In particular, students should be able to write readable, well-documented, effic
 * Introduction to Python and the IPython notebook
 * Testing and debugging
 
-**Possible Exercise**: Create a git repository on Github for this project. Write a makefile to automate generation of a LaTeX report with embedded R and Python results. Ensure that git commits are performed regularly and well-documented.
+**Sample Exercise**: Create a git repository on Github for this project. Write a makefile to automate generation of a LaTeX report with embedded R and Python results. Ensure that git commits are performed regularly and well-documented.
 
-**Possible Exercise**: You are given a Python program that has errors. Fix it.
+**Sample Exercise**: You are given a Python program that has errors. Fix it.
 
-**Possible Exercise**: Write functions to calculate the mean, median and variance of a set of numbers using test-driven development.
+**Sample Exercise**: Write functions to calculate the mean, median and variance of a set of numbers using test-driven development.
 
 ### Unit 2: Data manipulation and munging (10%)
 * Reading and writing data
@@ -54,11 +54,11 @@ In particular, students should be able to write readable, well-documented, effic
 * Querying a relational database with SQL
 * Database design for statisticians
 
-**Possible Exercise**: You are given a data set that needs to be cleaned and reformatted into a data frame.
+**Sample Exercise**: You are given a data set that needs to be cleaned and reformatted into a data frame.
 
-**Possible Exercise**: Given an SQLite3 database, use SQL to answer some questions and extract data subsets.
+**Sample Exercise**: Given an SQLite3 database, use SQL to answer some questions and extract data subsets.
 
-**Possible Exercise**: Given a spreadsheet, design a normalized database to manage the data. Transfer the data from the spreadsheet into the database.
+**Sample Exercise**: Given a spreadsheet, design a normalized database to manage the data. Transfer the data from the spreadsheet into the database.
 
 ### Unit 3: Exploratory data analysis and visualization (10%)
 * Manipulating data in a DataFrame
@@ -66,14 +66,14 @@ In particular, students should be able to write readable, well-documented, effic
 * Grammar of graphics with ggplot and bokeh
 * Animation - Metropolis, Gibbs and Hamiltonian sampling
 
-**Possible Exercise**: Load a dataset into a DataFrame and use joins and the split-apply-combine pattern to answer some quesiotns.
+**Sample Exercise**: Load a dataset into a DataFrame and use joins and the split-apply-combine pattern to answer some quesiotns.
 
-**Possible Exercise**: Plot and annotate the given dataset to illustrate its key features.
+**Sample Exercise**: Plot and annotate the given dataset to illustrate its key features.
 
 ### Unit 4: Efficient statistical routines (50%)
-* Program complexiity and Big $\mathcal{O}$ notation
+* Program complexity and Big $\mathcal{O}$ notation
 * Classic data structures (arrays, dictionaries, disjoint sets, trees, priority queues)
-* Classic algorithms (divide-and-conquer, hasing, recursion, search, sort, graph algorithms)
+* Classic algorithms (divide-and-conquer, hashing, recursion, search, sort, graph algorithms)
 * Broadcasting and vectorization in numpy and pandas
 * Functional programming (motivation, apply, map, filter, reduce, comprehensions, recursion, partial application)
 * Representation of numbers and linear algebra
@@ -81,7 +81,7 @@ In particular, students should be able to write readable, well-documented, effic
 * Introducing BLAS and LAPACK
 * Quadrature (Numerical integration)
 * Optimization (Newton's method, gradient and conjugate gradient descent, EM algorithm)
-* Resampling methods (boostrap, jackknife, permutation, boosting and bagging)
+* Resampling methods (bootstrap, jackknife, permutation, boosting and bagging)
 * Dynamic programming and Viterbi algorithm
 * Monte Carlo simulations
 * Markov chain Monte Carlo
@@ -90,13 +90,13 @@ In particular, students should be able to write readable, well-documented, effic
 
 **Sample Exercise**: Write an efficient function to calculate Cook's distance for the influence of data points on a regression.
 
-**Sample Exercise**: Use a gradient descent method to fit a logistic regression model (aka Iterative reweighted least squares).
+**Sample Exercise**: Use a gradient descent method to fit a logistic regression model (aka Iterative reweighed least squares).
 
 **Sample Exercise**: Implement the non-parametric and parametric bootstrap for phylogenetic trees described in <http://www.pnas.org/content/93/23/13429.full.pdf>
 
 **Sample Exercise**: Use permutation resampling to find the FWER given experimental data.
 
-**Exercsie**: Use symbolic integration, numerical integration and Monte Carlo integration to evaluate a definite double integral
+**Samepl Exercsie**: Use symbolic integration, numerical integration and Monte Carlo integration to evaluate a definite double integral
 
 **Sample Exercise**: Use regular Python, PyMC3 and PyStan to find the posterior distribution for a two-level model.
 
@@ -107,7 +107,7 @@ In particular, students should be able to write readable, well-documented, effic
 * Using numexpr, numba and cython
 * Using functions from C/C++ libraries
 * Writing functions in C/C++ and wrapping for Python/R
-* Introduction to the Julai programming language
+* Introduction to the Julia programming language
 
 **Sample Exercise**: You are given some slow code. Speed it up by using a better algoithm or data structure.
 
@@ -116,16 +116,16 @@ In particular, students should be able to write readable, well-documented, effic
 **Sample Exercise**: You are given some slow code in Python. Speed it up using Cython.
 
 ### Unit 6: High-performance computing (10%)
-* Common parallel progrmming patterns
+* Common parallel programing patterns
 * Multiprocessing and IPython.Parallel
 * Introduction to processing big data with MapReduce
 * Introduction to Multi-CPU computing with MPI
-* Intorduction to GPU computing with CUDA
+* Introduction to GPU computing with CUDA
 
 **Sample Exercise**: Rewrite the function to calculate Cook's distance using multiprocessing.
 
 **Sample Exercise**: Use Elastic MapReduce to do some massive genomic data manipulation.
 
-**Sample Exercise**: Use MPI to run an MCMC with parallel temperinig (aka $MC^3$) for a long time with some defined swap interval between chains.
+**Sample Exercise**: Use MPI to run an MCMC with parallel tempering (aka $MC^3$) for a long time with some defined swap interval between chains.
 
 **Sample Exercise**: Write a matrix multiplication kernel with and without use of shared memory using CUDA. Test it out using square matrices initialized with random numbers from CURAND. 

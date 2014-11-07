@@ -15,17 +15,17 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 </style>
 
 </head>
-<body class="normal firstload">
+<body class="normal">
   <div id="wrapper">
       <h1>STA 663: Statistical Computing and Computation</h1>
 
 <h3>Pretest</h3>
 
-<p>Try the <a href="pretest.html">pretest</a> - if you are not familiar with at least 50-75% of the material, you may not be ready for this classs.</p>
+<p>Try the <a href="pretest.html">pretest</a> - if you are not familiar with at least 50-75% of the material, you may not be ready for this class.</p>
 
 <h3>Overview</h3>
 
-<p>Most of science, including statsitcs, revolves around the design of models to represent data of some sort. In statistics, these models are typically probability distributions with parameters to estimate. The typical stages of analysis goes something like this:</p>
+<p>Most of science, including statistics, revolves around the design of models to represent data of some sort. In statistics, these models are typically probability distributions with parameters to estimate. The typical stages of analysis goes something like this:</p>
 
 <ol>
 <li>Data management
@@ -34,7 +34,7 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>Receive possibly messy and bad data</li>
 <li>Clean and filter the data</li>
 </ol></li>
-<li>Expoloratory data analysis
+<li>Exploratory data analysis
 
 <ol>
 <li>Describe and visualize the data to come up with possible models</li>
@@ -48,9 +48,9 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>Reporting</li>
 </ol>
 
-<p>In today's context, statisticians will be doing all three stages in front of a computer. We believe that modern analysiis of massive data sets is best achieved using a combination of complementatry software tools, and the course will cover what we consider to be an essential toolkit comprising <code>bash</code>, <code>git</code>, <code>make</code>, <code>sqlite3</code>, <code>python</code>, <code>R</code>, <code>C</code> and <code>LaTeX</code>. We use Python as the computational &quot;glue&quot; that integrates these collection of tools, and also in its capacity as an efficient high-level language for scientiific and statistical computing.</p>
+<p>In today's context, statisticians will be doing all three stages in front of a computer. We believe that modern analysis of massive data sets is best achieved using a combination of complementary software tools, and the course will cover what we consider to be an essential toolkit comprising <code>bash</code>, <code>git</code>, <code>make</code>, <code>sqlite3</code>, <code>python</code>, <code>R</code>, <code>C</code> and <code>LaTeX</code>. We use Python as the computational &quot;glue&quot; that integrates these collection of tools, and also in its capacity as an efficient high-level language for scientific and statistical computing.</p>
 
-<p>To deal with the massive data sets that you will enocounter in your career, the course will emphasize reproducible analysis, code optimization, high-perforamnce computing and cloud computing. Examples will be drawn from the core topics in computational statistics of optimization (e.g. smoothing, interpolation, maximum lkelihood, constrained and unconstrained methods) and simulation (e.g. jackknife, bootstrap, permutation, Monte Carlo integrals, MCMC).</p>
+<p>To deal with the massive data sets that you will encounter in your career, the course will emphasize reproducible analysis, code optimization, high-performance computing and cloud computing. Examples will be drawn from the core topics in computational statistics of optimization (e.g. smoothing, interpolation, maximum likelihood, constrained and unconstrained methods) and simulation (e.g. jackknife, bootstrap, permutation, Monte Carlo integrals, MCMC).</p>
 
 <p>At the end of the course, these are the practical skills (Units 1-6) every student should learn:</p>
 
@@ -76,11 +76,11 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>Testing and debugging</li>
 </ul>
 
-<p><strong>Possible Exercise</strong>: Create a git repository on Github for this project. Write a makefile to automate generation of a LaTeX report with embedded R and Python results. Ensure that git commits are performed regularly and well-documented.</p>
+<p><strong>Sample Exercise</strong>: Create a git repository on Github for this project. Write a makefile to automate generation of a LaTeX report with embedded R and Python results. Ensure that git commits are performed regularly and well-documented.</p>
 
-<p><strong>Possible Exercise</strong>: You are given a Python program that has errors. Fix it.</p>
+<p><strong>Sample Exercise</strong>: You are given a Python program that has errors. Fix it.</p>
 
-<p><strong>Possible Exercise</strong>: Write functions to calculate the mean, median and variance of a set of numbers using test-driven development.</p>
+<p><strong>Sample Exercise</strong>: Write functions to calculate the mean, median and variance of a set of numbers using test-driven development.</p>
 
 <h3>Unit 2: Data manipulation and munging (10%)</h3>
 
@@ -91,11 +91,11 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>Database design for statisticians</li>
 </ul>
 
-<p><strong>Possible Exercise</strong>: You are given a data set that needs to be cleaned and reformatted into a data frame.</p>
+<p><strong>Sample Exercise</strong>: You are given a data set that needs to be cleaned and reformatted into a data frame.</p>
 
-<p><strong>Possible Exercise</strong>: Given an SQLite3 database, use SQL to answer some questions and extract data subsets.</p>
+<p><strong>Sample Exercise</strong>: Given an SQLite3 database, use SQL to answer some questions and extract data subsets.</p>
 
-<p><strong>Possible Exercise</strong>: Given a spreadsheet, design a normalized database to manage the data. Transfer the data from the spreadsheet into the database.</p>
+<p><strong>Sample Exercise</strong>: Given a spreadsheet, design a normalized database to manage the data. Transfer the data from the spreadsheet into the database.</p>
 
 <h3>Unit 3: Exploratory data analysis and visualization (10%)</h3>
 
@@ -106,16 +106,16 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>Animation - Metropolis, Gibbs and Hamiltonian sampling</li>
 </ul>
 
-<p><strong>Possible Exercise</strong>: Load a dataset into a DataFrame and use joins and the split-apply-combine pattern to answer some quesiotns.</p>
+<p><strong>Sample Exercise</strong>: Load a dataset into a DataFrame and use joins and the split-apply-combine pattern to answer some quesiotns.</p>
 
-<p><strong>Possible Exercise</strong>: Plot and annotate the given dataset to illustrate its key features.</p>
+<p><strong>Sample Exercise</strong>: Plot and annotate the given dataset to illustrate its key features.</p>
 
 <h3>Unit 4: Efficient statistical routines (50%)</h3>
 
 <ul>
-<li>Program complexiity and Big <span class="math">\(\mathcal{O}\)</span> notation</li>
+<li>Program complexity and Big <span class="math">\(\mathcal{O}\)</span> notation</li>
 <li>Classic data structures (arrays, dictionaries, disjoint sets, trees, priority queues)</li>
-<li>Classic algorithms (divide-and-conquer, hasing, recursion, search, sort, graph algorithms)</li>
+<li>Classic algorithms (divide-and-conquer, hashing, recursion, search, sort, graph algorithms)</li>
 <li>Broadcasting and vectorization in numpy and pandas</li>
 <li>Functional programming (motivation, apply, map, filter, reduce, comprehensions, recursion, partial application)</li>
 <li>Representation of numbers and linear algebra</li>
@@ -123,7 +123,7 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>Introducing BLAS and LAPACK</li>
 <li>Quadrature (Numerical integration)</li>
 <li>Optimization (Newton's method, gradient and conjugate gradient descent, EM algorithm)</li>
-<li>Resampling methods (boostrap, jackknife, permutation, boosting and bagging)</li>
+<li>Resampling methods (bootstrap, jackknife, permutation, boosting and bagging)</li>
 <li>Dynamic programming and Viterbi algorithm</li>
 <li>Monte Carlo simulations</li>
 <li>Markov chain Monte Carlo</li>
@@ -133,13 +133,13 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 
 <p><strong>Sample Exercise</strong>: Write an efficient function to calculate Cook's distance for the influence of data points on a regression.</p>
 
-<p><strong>Sample Exercise</strong>: Use a gradient descent method to fit a logistic regression model (aka Iterative reweighted least squares).</p>
+<p><strong>Sample Exercise</strong>: Use a gradient descent method to fit a logistic regression model (aka Iterative reweighed least squares).</p>
 
 <p><strong>Sample Exercise</strong>: Implement the non-parametric and parametric bootstrap for phylogenetic trees described in <a href="http://www.pnas.org/content/93/23/13429.full.pdf">http://www.pnas.org/content/93/23/13429.full.pdf</a></p>
 
 <p><strong>Sample Exercise</strong>: Use permutation resampling to find the FWER given experimental data.</p>
 
-<p><strong>Exercsie</strong>: Use symbolic integration, numerical integration and Monte Carlo integration to evaluate a definite double integral</p>
+<p><strong>Samepl Exercsie</strong>: Use symbolic integration, numerical integration and Monte Carlo integration to evaluate a definite double integral</p>
 
 <p><strong>Sample Exercise</strong>: Use regular Python, PyMC3 and PyStan to find the posterior distribution for a two-level model.</p>
 
@@ -151,7 +151,7 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>Using numexpr, numba and cython</li>
 <li>Using functions from C/C++ libraries</li>
 <li>Writing functions in C/C++ and wrapping for Python/R</li>
-<li>Introduction to the Julai programming language</li>
+<li>Introduction to the Julia programming language</li>
 </ul>
 
 <p><strong>Sample Exercise</strong>: You are given some slow code. Speed it up by using a better algoithm or data structure.</p>
@@ -163,18 +163,18 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <h3>Unit 6: High-performance computing (10%)</h3>
 
 <ul>
-<li>Common parallel progrmming patterns</li>
+<li>Common parallel programing patterns</li>
 <li>Multiprocessing and IPython.Parallel</li>
 <li>Introduction to processing big data with MapReduce</li>
 <li>Introduction to Multi-CPU computing with MPI</li>
-<li>Intorduction to GPU computing with CUDA</li>
+<li>Introduction to GPU computing with CUDA</li>
 </ul>
 
 <p><strong>Sample Exercise</strong>: Rewrite the function to calculate Cook's distance using multiprocessing.</p>
 
 <p><strong>Sample Exercise</strong>: Use Elastic MapReduce to do some massive genomic data manipulation.</p>
 
-<p><strong>Sample Exercise</strong>: Use MPI to run an MCMC with parallel temperinig (aka <span class="math">\(MC^3\)</span>) for a long time with some defined swap interval between chains.</p>
+<p><strong>Sample Exercise</strong>: Use MPI to run an MCMC with parallel tempering (aka <span class="math">\(MC^3\)</span>) for a long time with some defined swap interval between chains.</p>
 
 <p><strong>Sample Exercise</strong>: Write a matrix multiplication kernel with and without use of shared memory using CUDA. Test it out using square matrices initialized with random numbers from CURAND. </p>
 
