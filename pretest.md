@@ -22,8 +22,7 @@ Most of the programming will be in Python, with C towards the end of the course 
 
 **In any language**
 
-* Understand what a nested loop does and why we first optimize the inner loop
-> What is the output of
+* What is the output of
 ```c
 #include "stdio.h"
 
@@ -65,7 +64,6 @@ def quicksort(xs):
 
 ### Data management basics
 
-* Can read input from a CSV file into a data structure (e.g. data frame)
 * Convert the following data into linked tables in a relational databases (e.g. SQLite)
 
 | Student | Subject | Grade |
@@ -87,9 +85,7 @@ def quicksort(xs):
 
 **Linear algebra**
 
-* Solving systems of linear equations (for regression)
-
-> Convert to matrix form by augmenting with a dummy variable $x_0 = 1$ to go with $\beta_0$.
+* Convert to matrix form by augmenting with a dummy variable $x_0 = 1$ to go with $\beta_0$.
 \\[
 \begin{align}
 \hat{y_1} &= \beta_0 + \beta_1 x_1 \\
@@ -98,10 +94,9 @@ def quicksort(xs):
 \\]
 Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution. 
 
-* Properties of vector spaces (e.g. scalars, vectors, matrices, functions)
-* Spectral decomposition of a matrix (for PCA, SVD, other matrix decompositions)
+* What are the properties of an inner product in a vector space? What is the inner product of real functions $f$ and $g$ over the closed interval [a, b]?
 
-> Find eigenvalues and eigenvectors for the matrix
+* Find eigenvalues and eigenvectors for the matrix
 \\[
 \begin{array}[cc]
 0 1 & 2 \\
@@ -109,12 +104,10 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 \end{array}
 \\]
 
-* Linear dependence, basis vectors and spanning (for FFT)
-
-> Are the following sets of basis functions linearly dependent?
+* Are the following sets of basis functions linearly dependent?
 (1, x, x^2, x^3), (1, x^2, x^4, x^6)
 
-> For estimating $\beta$, can the following equations be treated as a linear system?
+* For estimating $\beta$, can the following equations be treated as a linear system?
 \\[
 \begin{align}
 \hat{y_1} &= \beta_0 + \beta_1 x_1 + \beta_2 x_1^2 \\
@@ -124,10 +117,8 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 
 **Probability and statistics**
 
-* Familiarity with common univariate distributions (uniform, Gaussian, exponential, Poisson, binomial etc) and the multivariate normal distribution
-> In any programming language, draw and plot a histogram of 10,000 samples from a Poisson distribution with $\lambda=3$.
-* Can calculate expectation, variance and covariance
-> Without using a computer or calculator, find the covariance of
+* In any programming language, draw and plot a histogram of 10,000 samples from a Poisson distribution with $\lambda=3$.
+* Without using a computer or calculator, find the covariance of
 \\[
 \begin{array}[cc]
 0 1 & 3 \\
@@ -135,8 +126,6 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 \end{array}
 \\]
 
-* Some experience using classification and regression methods (e.g. linear, logistic)
-> What is the maximum likelihood loss function for simple logistic regression?
+* What is the maximum likelihood loss function for simple logistic regression?
 
-* Some exposure to statistical inference in both Bayesian and frequentist frameworks
-> In 10 coin flips, we got [H, H, T, H, H, T, H, H, H, T]. Is this a fair coin in the frequentist framework if we set the type 1 error as 0.05? How would you answer this question in the Bayesian framework?
+* In 10 coin flips, we got [H, H, T, H, H, T, H, H, H, T]. Is this a fair coin in the frequentist framework if we set the type 1 error as 0.05? How would you answer this question in the Bayesian framework?
