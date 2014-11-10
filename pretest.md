@@ -18,7 +18,7 @@ Expected background and pretest
 
 ### Programming basics
 
-Most of the programming will be in Python, with C towards the end of the course and occasional R and Julia excursions. You are expected to have programming experience in a high-level language commonly used for numerical computation (e.g. R, Matlab). Programming experience in Python and C is not necessary, but it is strongly recommended that you learn at least the basics of both languages from an online tutorial or introductory book before the course.
+Most of the programming will be in Python, with C towards the end of the course and occasional R and Julia excursions. You are expected to have *significant* programming experience in a high-level language commonly used for numerical computation scuh as R or Matlab - for example, by having completed  [STA 523 (Statistical Programming)](https://stat.duke.edu/~cr173/Sta523_Fa14/) or [BIOSTAT 721/722 (Introduction to Statistical Programming )](http://biostat.duke.edu/master-biostatistics-program/curriculum). Programming experience in Python and C is not necessary, but it is strongly recommended that you learn at least the basics of both languages from an online tutorial or introductory book before the course.
 
 **In any language**
 
@@ -46,7 +46,7 @@ int main()
 \end{array}
 \\]
 
-* Explain what the quicksort function does
+* Explain what the quicksort function does when given the list of numbers [7,1,2,10,7,11].
 ```python
 def quicksort(xs):
     if xs == []:
@@ -117,7 +117,7 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 
 **Probability and statistics**
 
-* In any programming language, draw and plot a histogram of 10,000 samples from a Poisson distribution with $\lambda=3$.
+* In any programming language, draw and plot a histogram of 10,000 samples from a Poisson distribution with $\lambda=3$. What is the distribution of the *sum* of these 10,000 samples?
 * Without using a computer or calculator, find the covariance of
 \\[
 \begin{array}[cc]
@@ -129,3 +129,13 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 * What is the maximum likelihood loss function for simple logistic regression?
 
 * In 10 coin flips, we got [H, H, T, H, H, T, H, H, H, T]. Is this a fair coin in the frequentist framework if we set the type 1 error as 0.05? How would you answer this question in the Bayesian framework?
+
+* You are familiar with the following concepts (we will be learning about their computational implementatin, optimization and application , and will only provide a brief refresher of the relevant theory)
+    * Law of large numbers and central limit theorem 
+    * PCA
+    * Linear and logistic regression
+    * Overfitting, regularization and cross-validation
+    * Resampling methods e.g. bootstrap and permuation resampling
+    * Maximum likelihood
+    * Expectation maximization
+    * Markov chain Monte Carlo
