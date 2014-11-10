@@ -81,7 +81,8 @@ Send a sketch or image of the database schema.
 
 **Calculus**
 
-* Understand series approximations to functions (for optimization algorithms). Explain the relationship between the Taylor series expansions for the exponential, sine and cosine functions.
+* Understand series approximations to functions (for optimization algorithms). Approximate sin(x) at x=0 using a 5th order polynomial. What is the difference between the approximation and sin(x) at $x=0$, $x=\pi$ and $x = 2\pi$?
+
 * Understand concept of gradient of multi-dimensional surfaces and linearization (for optimization algorithms). What are the Jacobian and Hessian matrices for the following set of equations?
 
 \\[
