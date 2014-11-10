@@ -3,7 +3,7 @@ STA 663: Statistical Computing and Computation
 
 ### Pretest
 
-Try the [pretest](pretest.html) - if you are not familiar with at least 50-75% of the material, you may not be ready for this class.
+Try the [pretest](pretest.html) - if you are not familiar with at least 75-100% of the material, you may not be ready for this class.
 
 ### Overview
 
