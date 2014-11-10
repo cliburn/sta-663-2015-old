@@ -19,7 +19,7 @@ Most of science, including statistics, revolves around the design of models to r
     2. Make predictions with model (Model prediction)
 4. Reporting
 
-In today's context, statisticians will be doing all three stages in front of a computer. We believe that modern analysis of massive data sets is best achieved using a combination of complementary software tools, and the course will cover what we consider to be an essential toolkit comprising `bash`, `git`, `make`, `sqlite3`, `python`, `R`, `C` and `LaTeX`. We use Python as the computational "glue" that integrates these collection of tools, and also in its capacity as an efficient high-level language for scientific and statistical computing.
+In today's context, statisticians will be doing all these stages mostly in front of a computer. We believe that modern analysis of massive data sets is best achieved using a combination of complementary software tools, and the course will cover what we consider to be an essential toolkit comprising `bash`, `git`, `make`, `sqlite3`, `python`, `R`, `C` and `LaTeX`. We use Python as the computational "glue" that integrates these collection of tools, and also in its capacity as an efficient high-level language for scientific and statistical computing.
 
 To deal with the massive data sets that you will encounter in your career, the course will emphasize reproducible analysis, code optimization, high-performance computing and cloud computing. Examples will be drawn from the core topics in computational statistics of optimization (e.g. smoothing, interpolation, maximum likelihood, constrained and unconstrained methods) and simulation (e.g. jackknife, bootstrap, permutation, Monte Carlo integrals, MCMC).
 
