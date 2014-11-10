@@ -14,7 +14,7 @@ Expected background and pretest
 
 * Create a repository on GitHub. Add a README file to it with the text "Hello". Now clone it to your local filesystem and revise the text of READNE to "Goodbye".Commit and push your changes to GitHub.
 
-* Open a console/terminal in your OS. Create a new directory, navigate to the new directory, creata a text file using` echo` and `>`, read the text file using `cat`, and count  the number of characters in the text file with `wc` without leaving the console/terminal
+* Open a console/terminal in your OS. Create a new directory, navigate to the new directory, creata a text file using `echo` and `>`, read the text file using `cat`, and count  the number of characters in the text file with `wc` without leaving the console/terminal
 
 ### Programming basics
 
