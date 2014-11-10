@@ -18,7 +18,7 @@ Expected background and pretest
 
 ### Programming basics
 
-Most of the programming will be in Python, with C towards the end of the course and occasional R and Julia excursions. You are expected to have *significant* programming experience in a high-level language commonly used for numerical computation scuh as R or Matlab - for example, by having completed  [STA 523 (Statistical Programming)](https://stat.duke.edu/~cr173/Sta523_Fa14/) or [BIOSTAT 721/722 (Introduction to Statistical Programming )](http://biostat.duke.edu/master-biostatistics-program/curriculum). Programming experience in Python and C is not necessary, but it is strongly recommended that you learn at least the basics of both languages from an online tutorial or introductory book before the course.
+Most of the programming will be in Python, with C towards the end of the course and occasional R and Julia excursions. You are expected to have *significant* programming experience in a high-level language commonly used for numerical computation such as R or Matlab - for example, by having completed  [STA 523 (Statistical Programming)](https://stat.duke.edu/~cr173/Sta523_Fa14/) or [BIOSTAT 721/722 (Introduction to Statistical Programming )](http://biostat.duke.edu/master-biostatistics-program/curriculum). Programming experience in Python and C is not necessary, but it is strongly recommended that you learn at least the basics of both languages from an online tutorial or introductory book before the course.
 
 **In any language**
 
@@ -130,12 +130,12 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 
 * In 10 coin flips, we got [H, H, T, H, H, T, H, H, H, T]. Is this a fair coin in the frequentist framework if we set the type 1 error as 0.05? How would you answer this question in the Bayesian framework?
 
-* You are familiar with the following concepts (we will be learning about their computational implementatin, optimization and application , and will only provide a brief refresher of the relevant theory)
+* You are familiar with the following concepts (we will be learning about their computational implementation, optimization and application , and will only provide a brief refresher of the relevant theory)
     * Law of large numbers and central limit theorem 
     * PCA
     * Linear and logistic regression
     * Overfitting, regularization and cross-validation
-    * Resampling methods e.g. bootstrap and permuation resampling
+    * Resampling methods e.g. bootstrap and permutation resampling
     * Maximum likelihood
     * Expectation maximization
     * Markov chain Monte Carlo
