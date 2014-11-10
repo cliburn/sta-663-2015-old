@@ -15,7 +15,7 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 </style>
 
 </head>
-<body class="normal firstload">
+<body class="normal">
   <div id="wrapper">
       <h2>Expected background and pretest</h2>
 
@@ -47,7 +47,7 @@ body{-webkit-font-smoothing:antialiased;font-family:"Helvetica Neue",Helvetica,A
 <li>What is the output of</li>
 </ul>
 
-<pre><code class="c">#include &quot;stdio.h&quot;
+<pre><code>#include &quot;stdio.h&quot;
 
 int main()
 {
@@ -73,7 +73,7 @@ int main()
 <li>Explain what the quicksort function does when given the list of numbers [7,1,2,10,7,11].</li>
 </ul>
 
-<pre><code class="python">def quicksort(xs):
+<pre><code>def quicksort(xs):
     if xs == []:
         return []
     else:
@@ -142,9 +142,19 @@ Write a makefile to compile a &quot;Hello world&quot; program in C</p>
 <p><strong>Calculus</strong></p>
 
 <ul>
-<li>Understand series approximations to functions (for optimization algorithms)</li>
-<li>Understand concept of gradient of multi-dimensional surfaces and linearization (for optimization algorithms)</li>
-<li>Basic understanding of integration (for Monte Carlo approximations, convolutions)</li>
+<li>Understand series approximations to functions (for optimization algorithms). Explain the relationship between the Taylor series expansions for the exponential, sine and cosine functions.</li>
+<li>Understand concept of gradient of multi-dimensional surfaces and linearization (for optimization algorithms). What are the Jacobian and Hessian matrices for the following set of equations?</li>
+</ul>
+
+<p><span class="math">\[  
+\begin{align}  
+y_1 &= x_2^2 \\  
+y_2 &= x_1^3x_2^2 - x_1  
+\end{align}  
+\]</span></p>
+
+<ul>
+<li>Basic understanding of integration (for Monte Carlo approximations, convolutions). A fair die (i.e. distribution is uniform over the numbers 1,2,3,4,5,6) is rolled twice. What is the distribution of the sum? Write a program to calculate the distribution of the sum after <span class="math">\(n\)</span> rolls.</li>
 </ul>
 
 <p><strong>Linear algebra</strong></p>
@@ -190,7 +200,7 @@ Explain why <span class="math">\(\beta = (X^TX)^{-1}X^T y\)</span> is the least 
 \]</span></p></li>
 <li><p>What is the maximum likelihood loss function for simple logistic regression?</p></li>
 <li><p>In 10 coin flips, we got [H, H, T, H, H, T, H, H, H, T]. Is this a fair coin in the frequentist framework if we set the type 1 error as 0.05? How would you answer this question in the Bayesian framework?</p></li>
-<li>You are familiar with the following concepts (we will be learning about their computational implementation, optimization and application , and will only provide a brief refresher of the relevant theory)
+<li>Write a short paragraph explaining the following concepts, ideally with a simple numerical and/or graphical example (we will be learning about their computational implementation, optimization and application , and will only provide a brief refresher of the relevant theory):
 
 <ul>
 <li>Law of large numbers and central limit theorem</li>

@@ -79,9 +79,17 @@ def quicksort(xs):
 
 **Calculus**
 
-* Understand series approximations to functions (for optimization algorithms)
-* Understand concept of gradient of multi-dimensional surfaces and linearization (for optimization algorithms)
-* Basic understanding of integration  (for Monte Carlo approximations, convolutions)
+* Understand series approximations to functions (for optimization algorithms). Explain the relationship between the Taylor series expansions for the exponential, sine and cosine functions.
+* Understand concept of gradient of multi-dimensional surfaces and linearization (for optimization algorithms). What are the Jacobian and Hessian matrices for the following set of equations?
+
+\\[
+\begin{align}
+y_1 &= x_2^2 \\
+y_2 &= x_1^3x_2^2 - x_1
+\end{align}
+\\]
+
+* Basic understanding of integration  (for Monte Carlo approximations, convolutions). A fair die (i.e. distribution is uniform over the numbers 1,2,3,4,5,6)  is rolled twice. What is the distribution of the sum?  Write a program to calculate the distribution of the sum after $n$ rolls.
 
 **Linear algebra**
 
@@ -130,7 +138,7 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 
 * In 10 coin flips, we got [H, H, T, H, H, T, H, H, H, T]. Is this a fair coin in the frequentist framework if we set the type 1 error as 0.05? How would you answer this question in the Bayesian framework?
 
-* You are familiar with the following concepts (we will be learning about their computational implementation, optimization and application , and will only provide a brief refresher of the relevant theory)
+* Write a short paragraph explaining the following concepts, ideally with a simple numerical and/or graphical example (we will be learning about their computational implementation, optimization and application , and will only provide a brief refresher of the relevant theory):
     * Law of large numbers and central limit theorem 
     * PCA
     * Linear and logistic regression
