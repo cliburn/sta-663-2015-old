@@ -3,7 +3,7 @@ Expected background and pretest
 
 ### Miscellaneous basics
 
-* Use LaTeX to generate the following
+* Write the LaTeX to generate the following
 
 \\[
 \begin{align}
@@ -12,9 +12,9 @@ Expected background and pretest
 \end{align}
 \\]
 
-* Create a repository on GitHub. Add a README file to it with the text "Hello". Now clone it to your local filesystem and revise the text of READNE to "Goodbye".Commit and push your changes to GitHub.
+* Create a repository on GitHub. Add a README file to it with the text "Hello". Now clone it to your local filesystem and revise the text of READNE to "Goodbye".Commit and push your changes to GitHub. Send me the GitHub URL.
 
-* Open a console/terminal in your OS. Create a new directory, navigate to the new directory, creata a text file using `echo` and `>`, read the text file using `cat`, and count  the number of characters in the text file with `wc` without leaving the console/terminal
+* Open a console/terminal in your OS. Create a new directory, navigate to the new directory, creata a text file using `echo` and `>`, read the text file using `cat`, and count  the number of characters in the text file with `wc` without leaving the console/terminal. Attach a screenshot of the terminal history.
 
 ### Programming basics
 
@@ -73,7 +73,9 @@ def quicksort(xs):
 | Ali | Science | 75 |
 | Baba | Math | 65 |
 
-* Write an SQL statement to find out Ali's average grade over all his subjects.
+Send a sketch or image of the database schema.
+
+* Write an SQL statement to find out Ali's average grade over all his subjects. Send the SQL statement and its output.
 
 ### Math basics
 
@@ -112,10 +114,10 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 \end{array}
 \\]
 
-* Are the following sets of basis functions linearly dependent?
+* Are the following sets of basis functions linearly dependent? Explain why or why not.
 (1, x, x^2, x^3), (1, x^2, x^4, x^6)
 
-* For estimating $\beta$, can the following equations be treated as a linear system?
+* For estimating $\beta$, can the following equations be treated as a linear system? Explain why or why not.
 \\[
 \begin{align}
 \hat{y_1} &= \beta_0 + \beta_1 x_1 + \beta_2 x_1^2 \\
@@ -125,7 +127,7 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
 
 **Probability and statistics**
 
-* In any programming language, draw and plot a histogram of 10,000 samples from a Poisson distribution with $\lambda=3$. What is the distribution of the *sum* of these 10,000 samples?
+* In any programming language, draw and plot a histogram of 10,000 samples from a Poisson distribution with $\lambda=3$. Show your code. What is the distribution of the *sum* of these 10,000 samples?
 * Without using a computer or calculator, find the covariance of
 \\[
 \begin{array}[cc]
@@ -133,8 +135,9 @@ Explain why $\beta = (X^TX)^{-1}X^T y$ is the least squares solution.
  2 & 6
 \end{array}
 \\]
+Show your calculations.
 
-* What is the maximum likelihood loss function for simple logistic regression?
+* What is the maximum likelihood loss function for simple logistic regression? Show your derivation.
 
 * In 10 coin flips, we got [H, H, T, H, H, T, H, H, H, T]. Is this a fair coin in the frequentist framework if we set the type 1 error as 0.05? How would you answer this question in the Bayesian framework?
 
