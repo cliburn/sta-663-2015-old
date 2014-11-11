@@ -77,7 +77,7 @@ In particular, students should be able to write readable, well-documented, effic
 * Broadcasting and vectorization in numpy and pandas
 * Functional programming (motivation, apply, map, filter, reduce, comprehensions, recursion, partial application)
 * Representation of numbers and linear algebra
-* Decompositional approach to matrix computations (LR, QR, SVD, Cholesky)
+* Decompositional approach to matrix computations (LU, QR, SVD, Cholesky)
 * Introducing BLAS and LAPACK
 * Quadrature (Numerical integration)
 * Optimization (Newton's method, gradient and conjugate gradient descent, EM algorithm)
